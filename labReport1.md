@@ -13,7 +13,7 @@
 
 ![Image](Screenshot 2024-01-10 151529.png)
 
-* When running the `cd` command with a path to a *directory*, the working directory is `lecture1`. The output is nothing but the working directory is changed from `/home` to `lecture1`, which alligns with the purpose of the `cd`\ command. The output is not an error.
+* When running the `cd` command with a path to a *directory*, the working directory is `lecture1`. The output is nothing but the working directory is changed from `/home` to `lecture1`, which alligns with the purpose of the `cd` command. The output is not an error.
 
 
 **`cd` with a path to a *file***
@@ -34,7 +34,7 @@
 
 ![Image](Screenshot 2024-01-10 151634.png)
 
-*When running the `ls` comamnd with the path as a directory, the working directory is `lecture1`. The output lists all the files in the messages/ directory without changing the working directory. There are four files that are a part of this output since there are four files in the messages/ directory. This is not an error.
+*When running the `ls` comamnd with the path as a directory, the working directory is `lecture1`. The output lists all the files in the `messages/` directory without changing the working directory. There are four files that are a part of this output since there are four files in the `messages/` directory. This is not an error.
 
 
 **`ls` with a path to a *file***
