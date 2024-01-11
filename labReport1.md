@@ -40,3 +40,26 @@
 **`ls` with a path to a *file***
 
 ![Image](Screenshot 2024-01-10 151659.png)
+
+* When running the `ls` command with the path as a file, the working directory is `lecture1`. The output is just the name of the file since the purpose of `ls` is to list all of the file names in the directory. If it is directed to a file it will simply print the name of the file. This is not an error.
+
+
+**`cat` with *no* arguments**
+
+![Image](Screenshot 2024-01-10 151741.png)
+
+* When running the `cat` command runs with no argument, the working directory is 'lecture1'. The output will actually be a place for the user to input the message that they want to concatinate. Since cat takes in two parameters, having no argument will mess up the function of the code. This is not an error since it is waiting for an input but it does not work as intended.
+
+**`cat` with a *directory* path**
+
+![Image](Screenshot 2024-01-10 151817.png)
+![Image](Screenshot 2024-01-11 001407.png)
+
+* When running the `cat` command runs with a path to a directory, the working directory is `lecture1`. The output states that the argument of messages is a directory. This is an error since it does not concatinate anything and restates the fact that the path that was chosen is a directory, and not a file like it expects. In the second image it is clear that the terminal will throw the error message and move onto the next file that was in the `cat` command.
+
+  **`cat` with a path to a file**
+
+![Images](Screenshot 2024-01-10 151845.png)
+![Image](Screenshot 2024-01-11 001502.png)
+
+* When running the `cat` command with a path to a file, the first image has a working directory of `lecture1` and the second image has a working directory of `messages`. Clearly, when using the `cat` command with a path to a file, it will either print the file if it is only given one argument, or it will print both of the files given if given more than one argument. Either way, the output is the files that are given in the command line. This is not an error.
