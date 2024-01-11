@@ -13,7 +13,7 @@
 
 ![Image](Screenshot 2024-01-10 151529.png)
 
-* When running the `cd` command with a path to a *directory*, the working directory is `lecture1`. The output is nothing but the working directory is changed from `/home` to `lecture1`, which alligns with the purpose of the cd command. The output is not an error.
+* When running the `cd` command with a path to a *directory*, the working directory is `lecture1`. The output is nothing but the working directory is changed from `/home` to `lecture1`, which alligns with the purpose of the `cd`\ command. The output is not an error.
 
 
 **`cd` with a path to a *file***
@@ -48,7 +48,7 @@
 
 ![Image](Screenshot 2024-01-10 151741.png)
 
-* When running the `cat` command runs with no argument, the working directory is 'lecture1'. The output will actually be a place for the user to input the message that they want to concatinate. Since cat takes in two parameters, having no argument will mess up the function of the code. This is not an error since it is waiting for an input but it does not work as intended.
+* When running the `cat` command runs with no argument, the working directory is 'lecture1'. The output will actually be a place for the user to input the message that they want to concatinate. Since `cat` takes in two parameters, having no argument will mess up the function of the code. This is not an error since it is waiting for an input but it does not work as intended.
 
 **`cat` with a *directory* path**
 
