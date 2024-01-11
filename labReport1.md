@@ -1,6 +1,6 @@
 ## Lab Report 1
 
-**In each screenshot I used the pwd command to show the working directory but I will also add it below each image**
+**In each screenshot I used the pwd command to show the working directory but I will also add it below each image.**
 
 **`cd` with *no* arguments**
 
