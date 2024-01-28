@@ -68,8 +68,8 @@ class ChatServer {
 ADD SCREENSHOTS
 
 The methods that are called in my code are 
-*The main method
-*The handleRequest method
+* The main method
+* The handleRequest method
 
 The relevant argument for this screenshot is the `"/add-message"` 
 
