@@ -71,5 +71,8 @@ The methods that are called in my code are
 * The main method
 * The handleRequest method
 
-The relevant argument for this screenshot is the `"/add-message"` 
+The relevant arguments for this screenshot are the "args" and the "url" arguments that are passed through the main and handleRequest methods respectively. 
+
+The values that are in relevant fields are the values of the messages ArrayList
+
 
