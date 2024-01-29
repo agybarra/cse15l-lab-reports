@@ -65,14 +65,36 @@ class ChatServer {
 
 **Screenshots of `/add-message` in action!**
 
-ADD SCREENSHOTS
+![Image](1.png)
 
 The methods that are called in my code are 
-* The main method
-* The handleRequest method
+* The `main` method
+* The `handleRequest` method
 
-The relevant arguments for this screenshot are the "args" and the "url" arguments that are passed through the main and handleRequest methods respectively. 
+The relevant arguments for this screenshot are the `args` and the `url` arguments that are passed through the `main` and `handleRequest` methods respectively. 
 
-The values that are in relevant fields are the values of the messages ArrayList
+The values that are in relevant fields are the values of the messages ArrayList, which is updated every time there is a message added and returned each time as well. For this screenshot specifically, the relevant value is the `Hello` and the `jpolitz`in 
+`/add-message?s=Hello&user=jpolitz`
+
+The values of the ArrayList messages change from this specific request.
 
 
+![Image](2.png)
+
+The relevant arguments for this screenshot are the `args` and the `url` arguments that are passed through the main and handleRequest methods respectively. 
+
+The values that are in relevant fields are the values of the messages ArrayList, which is updated every time there is a message added and returned each time as well. For this screenshot specifically, the relevant value is the `Hello there!` and the `Allyson Ybarra` in `/add-message?s=Hello there!&user=Allyson Ybarra`
+
+The values of the ArrayList messages change from this specific request.
+
+
+**Part 2**
+
+![Image](3.png)
+![Image](4.png)
+![Image](5.png)
+
+
+**Part 3**
+
+I learned many new commands such as `mkdir`, `ssh-keygen`, `scp`. I also learned more about how URLs and web servers work and how to program very basic web servers. I did not know that you could just create a website on edstem for free so that was pretty cool to find out. I can imagine all of the possibilities with that. In turn, I learned how to update the servers and make programs that update the values on a server.
