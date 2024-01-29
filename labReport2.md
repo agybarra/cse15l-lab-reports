@@ -89,6 +89,7 @@ The values of the ArrayList messages change from this specific request.
 
 
 **Part 2**
+
 *private*
 ![Image](3.png)
 *public*
