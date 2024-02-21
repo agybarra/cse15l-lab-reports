@@ -65,7 +65,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-The fix addresses the issue since the original code did not return the newArray which is where the reversal happened. Also, the assignment of the reversed array should be from `arr` and not the other way around. Overall, there were two bugs in the original code, but both were fixed in the second block of code and both of the test cases passed. 
+The fix addresses the issue since the original code did not return the newArray which is where the reversal happened. Also, the assignment of the reversed array should be from `arr` and not the other way around. Overall, there were two bugs in the original code, but both were fixed in the second block of code and the test cases passed. 
 
 
 ## Part 2
